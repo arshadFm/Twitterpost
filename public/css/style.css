@@ -1,0 +1,96 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0c56e0;
+   
+  }
+  * {box-sizing: border-box;}
+  .containerM{
+    
+      padding: 10px;
+    border: 1px solid #1ecec5;
+    border-radius: 4px;
+    margin:10px auto 10px auto;
+    background-color: aliceblue;
+  width: 50%;
+  
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  header .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  header .profile-name {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+  }
+  header .follow-btn {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+    
+  }
+  
+  header .follow-btn button {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #0c56e0;
+    color: white;
+  }
+  header h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+  #innerone input[type=textarea] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  #innerone .btn-post[type=submit] {
+    background-color: #0c56e0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #innerone .btn-post[type=submit]:hover {
+    background-color: #6492e7;
+  }
+  #innerone hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .stats {
+
+    font-size: 15px;
+  }
+  footer .stats strong {
+    font-size: 18px;
+  }
+  footer .stats .likes {
+    margin-left: 10px;
+  }
+  footer .cta {
+    margin-left: auto;
+  }
+  footer .cta button {
+    border: 0;
+    background: transparent;
+  }
